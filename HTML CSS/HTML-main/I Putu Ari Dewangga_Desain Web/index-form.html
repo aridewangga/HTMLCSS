@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanah Lot Destination</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <form>
+        <label>NIK</label>
+        <input type="text" name="NIK" placeholder="nik"><br>
+
+        <label>Nama Lengkap</label>
+        <input type="text" name="namalengkap" placeholder="Nama Lengkap"><br>
+
+        <label>Tanggal Lahir</label>
+        <input type="date" name="tgl_lahir"><br>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Email"><br>
+
+        <label>password</label>
+        <input type="password" name="password" placeholder="Password"><br>
+
+        <label>Jenis Kelamin</label>
+        <input type="radio" id="jk" name="jk" value="Laki-laki">
+        <label for="Laki-laki">Laki-laki</label>
+        <input type="radio" id="jk" name="jk" value="Perempuan">
+        <label for="Perempuan">Perempuan</label>
+
+        <label>Agama</label>
+        <select name="agama">
+            <option value="Hindu">Hindu</option>
+             <option value="Islam">Islam</option>
+             <option value="Budha">Budha</option>
+             <option value="Kristen">Kristen Protestan</option>
+             <option value="Khatolik">Khatolik</option>
+             <option value="Konghucu">Konghucu</option>
+    </select>
+    <br>
+    <label>Hobi</label><br>
+    <input type="checkbox"  id="sepeda" name="sepeda" value="bersepeda">
+    <label for="sepeda">bersepeda</label><br>
+    <input type="checkbox" id="sepakbola" name="sepakbola" value="sepakbola">
+    <label for="sepakbola">Sepakbola</label><br>
+    <input type="checkbox" id="baca" name="baca" value="membaca">
+    <label for="baca">membaca</label><br>
+
+    <label>File Foto</label>
+    <input type="file" id="avatar" name="avatar"
+    accept="image/png, image/jpeg">
+    <br>
+    <button>kirim</button>
+    </form>
+</body>
+</html>
